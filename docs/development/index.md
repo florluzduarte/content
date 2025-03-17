@@ -13,12 +13,9 @@ If you find this information useful please share it with others 😉
 
 ## Software Development Notes  
 
-### University  
+### Basics
 
-- 🪴 [UTN - Tecnicatura | Programación 1](/development/university/programacion-1/) (Spanish) 
-- 🪴 [UTN - Tecnicatura | Arquitectura y Sistemas Operativos](/development/university/arquitectura-y-sistemas-operativos) (Spanish)
-- 🪴 [UTN - Tecnicatura | Organización empresarial](/development/university/organizacion-empresarial/) (Spanish)   
-- 🪴 [UTN - Tecnicatura | Matemática](/development/university/matematica/) (Spanish)   
+- 🪴[Programming Language](/development/basics/programming-language/) (English)
 
 ### Operating Systems  
 
@@ -28,3 +25,6 @@ If you find this information useful please share it with others 😉
 ### Git  
 
 - 🪴[What is a Git Submodule?](/development/git/what-is-a-git-submodule/) (English)  
+
+### OSSU  
+
