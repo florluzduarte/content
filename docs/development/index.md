@@ -25,6 +25,7 @@ If you find this information useful please share it with others 😉
 ### Git  
 
 - 🪴[What is a Git Submodule?](/development/git/what-is-a-git-submodule/) (English)  
+- 🪴[Git Cheatsheet](/development/git/git-cheatsheet/) (English)
 
 ### OSSU  
 

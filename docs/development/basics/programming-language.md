@@ -32,7 +32,8 @@ Machine language is the native language of computers. It's the only language the
 
 ### Low level programming languages  
 
-
+(WIP)  
 
 ### High level programming languages  
 
+(WIP)  
