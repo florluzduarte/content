@@ -80,3 +80,12 @@ git remote remove <remote-name>
 
 ---
 
+## Commits  
+
+How to fix a commit message gone wrong  
+
+```bash
+git commit --amend -m "correct commit message"
+```
+
+----
