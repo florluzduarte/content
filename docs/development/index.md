@@ -13,19 +13,24 @@ If you find this information useful please share it with others 😉
 
 ## Software Development Notes  
 
-### Basics
+### 1. Basics
 
 - 🪴[Programming Language](/development/basics/programming-language/) (English)
 
-### Operating Systems  
+### 2. Operating Systems  
 
 - 🌱  [The Kernel](/development/os/the-kernel/) (English)  
 - 🌱  [The Operating System](/development/os/the-operating-system/) (English)   
 
-### Git  
+### 3. Git  
 
 - 🪴[What is a Git Submodule?](/development/git/what-is-a-git-submodule/) (English)  
 - 🪴[Git Cheatsheet](/development/git/git-cheatsheet/) (English)
 
-### OSSU  
+### 4. OSSU  
 
+- 🌱 [About the Open Source Society University - OSSU - Computer Science](/development/ossu/) (English)    
+
+### 5. Readings  
+
+- 🌱 [A review of the paper "Notes on structured programming"](/development/readings/notes-on-structured-programming) (English)   
