@@ -9,13 +9,13 @@ My name is **Florencia Luz Duarte**. I'm a **Software Developer and Product Desi
 
 This garden is the home of my ideas, projects and learnings.
 
-It serves me both as a **place for fostering a deeper understanding of the concepts and thoughts that surround me** working in Tech, and as **a place to learn in public and share that knowledge with the community**.
+It serves both as a **space to deepen my understanding of the concepts and ideas I engage with in Tech** and as **a platform to learn in public and share knowledge with the community****.
 
-Enjoy and share with others any link that might be of help ✨
+Enjoy and feel free to share any helpful links with others! ✨
 
-**This notes are constantly evolving** so keep in mind that some of them could have errors or blank spaces in them. You will see a small call out in the text if something is missing or potentially mistaken.
+**These notes are constantly evolving** so keep in mind that some of them could have errors or blank spaces in them. You will see a small callout in the text if something is missing or potentially incorrect.
 
-**My brain is a bilingual mess, so half my notes are in English and the other half in Spanish**. To help you navigate them, each note's title is in the original language I wrote it in. I'll try to provide translations every time that I'm able, but let me be honest from the start, some of them--if not the majority--will remain forever in the original language they were written.
+**My brain is a bilingual mess, so half my notes are in English and the other half in Spanish**. To help you navigate them, each note's title is in the original language in which I wrote it. I'll try to provide translations whenever possible, but let me be honest from the start, some of them—if not the majority—will remain forever in the original language in which they were written.
 
 ## 🌻Topics of this Garden
 
