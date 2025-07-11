@@ -44,12 +44,10 @@ git submodule init
 git submodule update
 ```
 
-To update the data contained locally from a submodule (Command used in the base repository)
+To update the data from a submodule (Command used in the base repository)
 
 ```bash
 git submodule update --remote <submodule-name>
 ```
 
 This command **will synchronize the information that is available in the default branch of the submodule** (usually the `main` branch). If you need a more custom config, [checkout the git documentation for a step-by-step custom implementation](https://git-scm.com/book/en/v2/Git-Tools-Submodules).  
-
-(WIP)  

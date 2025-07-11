@@ -89,3 +89,7 @@ git commit --amend -m "correct commit message"
 ```
 
 ----
+
+## Submodules  
+
+Check this note for more information, use cases and common commands: [What is a Git Submodule?](/development/git/what-is-a-git-submodule)

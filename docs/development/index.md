@@ -34,3 +34,4 @@ If you find this information useful please share it with others 😉
 ### 5. Readings  
 
 - 🌱 [A review of the paper "Notes on structured programming"](/development/readings/notes-on-structured-programming) (English)   
+

@@ -9,7 +9,7 @@ My name is **Florencia Luz Duarte**. I'm a **Software Developer and Product Desi
 
 This garden is the home of my ideas, projects and learnings.
 
-It serves both as a **space to deepen my understanding of the concepts and ideas I engage with in Tech** and as **a platform to learn in public and share knowledge with the community****.
+It serves both as a **space to deepen my understanding of the concepts and ideas I engage with in Tech** and as **a platform to learn in public and share knowledge with the community**.
 
 Enjoy and feel free to share any helpful links with others! ✨
 
