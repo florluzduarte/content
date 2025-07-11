@@ -5,8 +5,7 @@
 - **React Redux:** Fue la primera librería que permitió la implementación del patrón Redux en aplicaciones de React. Se utilizó por mucho tiempo como la solución estándar en el ecosistema, pero depende de mucho boilerplate y es bastante verbosa su implementación.  
 
 - **Redux Toolkit:** Vino a solucionar las incomodidades más  frecuentes de usar React Redux. Es una librería que nos brinda una serie de herramientas que ayudan a implementar el patrón de diseño Redux en aplicaciones, pero de manera más simple que las soluciones anteriores.    
-
-- **RTK Query:** Es una herramienta para manejar data fetching y caché en aplicaciones que utilizan Redux Toolkit.   
+- **RTK Query:** Es una herramienta para manejar data fetching y caché en aplicaciones que utilizan Redux Toolkit.  
 
 ## **Redux** | Toolkit  
 
@@ -104,7 +103,7 @@ const usersSlice = createSlice({
 dispatch(fetchUserById(123))
 ```
 
-Otra forma de manejar los thunks:  
+Otra forma de manejar los thunks de manera manual:  
 
 ```js
 export const getPatients = (params) => {
@@ -130,13 +129,21 @@ export const getPatients = (params) => {
 >Para mayor claridad se recomienda organizar los thunks en un nuevo archivo para centralizar todas las funciones que controlan tareas asíncronas de nuestros slices. Esto es opcional y según criterio personal pero puede ser una buena práctica para evitar que se extiendan demasiado los slices.  
 
 
-**Diferencias entre `createAsyncThunk` y `manualThunks`**  
+### Diferencias entre `createAsyncThunk`, `manualThunks` y RTK Query   
 
+En esencia sirven para lo mismo pero tienen distintas capas de abstracción. 
 
+Si manejás tus thunks de manera manual puedes personalizar al máximo lo que sucede dentro de los mismos, pero necesitas encargarte de cada paso (los cambios de estado de la petición, la carga de la data en el slice/store, el manejo de caché, etc.)
+
+Un `createAsyncThunk` es una **función utilitaria** para crear thunks asincrónicos. Es decir, código que despacha acciones mientras espera respuestas de APIs. Ofrecen una primera capa de abstracción, ya que manejan de forma simple los estados de las peticiones (fulfilled, pending, loading), pero no ofrecen una solución de manejo de caché. 
+
+Por último, RTK Query es una **solución completa para data fetching**. Es como un mini-cliente de datos embebido en Redux (similar a React Query), con caching, invalidaciones, refetching, polling, etc. Ofrece muchas más posibilidades y se encargar de muchas cosas por nosotros (ver más abajo), pero requiere una inversión de configuración y lidiar con la fuerte abstracción que la herramienta propone a la hora de manejar los thunks. Si bien tenemos más problemas resueltos, también nos limita en el diseño y las capacidades de esos thunks.  
+
+En definitiva no hay una opción correcta, sino que cada una sirve para situaciones distintas. Todo dependerá del proyecto y de las necesidades puntuales del thunk a resolver.  
 
 ## **Redux** | RTK Query  
 
-**¿Para qué sirve esta herramienta?**
+### ¿Para qué sirve esta herramienta?
 
 - Optimiza las peticiones HTTP: Evita hacer peticiones innecesarias ya que almacena la peticiones en caché
 
